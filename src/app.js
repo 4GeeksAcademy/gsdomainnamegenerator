@@ -14,7 +14,7 @@ window.onload = function() {
 
   for (let proInd = 0; proInd < pronoun.length; proInd++) {
     for (let adjInd = 0; adjInd < adj.length; adjInd++) {
-      for (let nounInd = 0; nounInd < noun.lenght; nounInd++) {
+      for (let nounInd = 0; nounInd < noun.length; nounInd++) {
         for (let extInd = 0; extInd < extension.length; extInd++) {
           console.log(
             pronoun[proInd] + adj[adjInd] + noun[nounInd] + extension[extInd]
